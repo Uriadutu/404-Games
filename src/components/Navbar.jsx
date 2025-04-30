@@ -17,7 +17,6 @@ const Navbar = () => {
   return (
     <nav className="sm:absolute fixed top-0 left-0 w-full backdrop-blur-md sm:bg-white/10 bg-blue-500/80 z-50">
       <div className="container mx-auto flex items-center justify-between px-6 py-4">
-        {/* Logo */}
         <h1
           className="text-2xl md:text-3xl font-bold text-white cursor-pointer"
           onClick={() => navigate("/")}
@@ -25,7 +24,6 @@ const Navbar = () => {
           404Game
         </h1>
 
-        {/* Desktop Menu */}
         <ul className="hidden md:flex gap-8 text-white text-lg font-medium">
           <li>
             <Link to="/" className="hover:text-gray-200 transition">
@@ -52,7 +50,6 @@ const Navbar = () => {
           </li>
         </ul>
 
-        {/* Mobile */}
         <div className="flex items-center gap-4">
           <input
             className="hidden md:block p-2 rounded-md bg-white/20 placeholder-white text-white w-60 focus:outline-none focus:ring-2 focus:ring-white"
@@ -69,7 +66,6 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* Mobile Dropdown */}
       {isOpen && (
         <motion.div
           initial={{ opacity: 0, y: -10 }}
