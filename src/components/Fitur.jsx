@@ -4,7 +4,6 @@ const Fitur = () => {
   return (
     <div className="flex w-full flex-col items-start justify-center my-20 text-gray-900 px-6 sm:px-10 md:px-16 lg:px-48">
         <div className="absolute w-[270px] h-[190px] bg-blue-500 opacity-30 blur-3xl rounded-full bottom-1s right-5 md:w-[500px] md:h-[300px] md:right-72"></div>
-
       <h1 className="text-4xl sm:text-5xl md:text-5xl font-bold mb-6 text-left bg-blue-500 px-8 py-2 text-white">
         Fitur 404Game
       </h1>
