@@ -21,7 +21,7 @@ const Navbar = () => {
           className="text-2xl md:text-3xl font-bold text-white cursor-pointer"
           onClick={() => navigate("/")}
         >
-          404Game
+          Data Cloudinary
         </h1>
 
         <ul className="hidden md:flex gap-8 text-white text-lg font-medium">
@@ -31,9 +31,9 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link to="/games" className="hover:text-gray-200 transition">
+            {/* <Link to="/games" className="hover:text-gray-200 transition">
               Game
-            </Link>
+            </Link> */}
           </li>
           <li>
             <Link to="/kebijakan-privasi" className="hover:text-gray-200 transition">
@@ -53,7 +53,7 @@ const Navbar = () => {
         <div className="flex items-center gap-4">
           <input
             className="hidden md:block p-2 rounded-md bg-white/20 placeholder-white text-white w-60 focus:outline-none focus:ring-2 focus:ring-white"
-            placeholder="Cari Game..."
+            placeholder="Cari..."
             type="text"
           />
 
